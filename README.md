@@ -1,6 +1,8 @@
 # Point_CNN<br>
+=====
 a cnn for the analyse of points<br>
 ##语义鸿沟 Semantic Gap<br>
+-------
 图像的底层视觉特性和高层语义概念之间的鸿沟<br>
 相似的视觉特性，不同的语义概念 && 不相似的视觉特性，相同的语义概念<br>
 #图像识别基本框架<br>
