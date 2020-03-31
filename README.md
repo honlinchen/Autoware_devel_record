@@ -9,4 +9,4 @@ a cnn for the analyse of points<br>
     特征设计/学习特征   特征匹配<br>
 ##全局特征提取：例如颜色，形状，纹理——>向量空间映射——>向量表示<br>
        afn    afns
-
+    的威尔
