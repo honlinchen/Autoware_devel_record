@@ -1,8 +1,5 @@
 # Point_CNN<br>
 =====
-
-a cnn for the analyse of points<br>
-
 ##语义鸿沟 Semantic Gap<br>
 -------
 图像的底层视觉特性和高层语义概念之间的鸿沟<br>
