@@ -9,4 +9,8 @@
                 |                        |
         特征设计/学习特征   特征匹配
     全局特征提取：例如颜色，形状，纹理——>向量空间映射——>向量表示
+## Ai Studio（百度）
 
+```
+wor1: Paddle架构，pyecharts图表库，python爬虫（json , re, requests）
+```
