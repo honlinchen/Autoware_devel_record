@@ -20,9 +20,9 @@ echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
 - [Ref blog:](https://blog.csdn.net/luoffy555/article/details/103251712)
 - Note: <br>
 ```
-            echo PATH= ...Qt...gcc...
-            echo PATH=...QtCreater
-            根据各类博文，环境设置需要设置Qt与QtCreater
+export PATH="/home/chl/Qt5.12.2/5.12.2/gcc_64/bin:$PATH"
+export PATH="/home/chl/Qt5.12.2/Tools/QtCreator/bin:$PATH"
+根据各类博文，环境设置需要设置Qt gcc与QtCreater环境变量
 ```
 
 ## 5. install Auoware
