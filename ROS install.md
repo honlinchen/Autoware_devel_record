@@ -2,8 +2,8 @@
 
 ## 1. install :
 
-[Ref官方文档](http://wiki.ros.org/melodic/Installation/Ubuntu)
-[Ref blog](https://blog.csdn.net/leonardohaig/article/details/82813738)
+- [Ref官方文档](http://wiki.ros.org/melodic/Installation/Ubuntu)
+- [Ref blog](https://blog.csdn.net/leonardohaig/article/details/82813738)
 
 ## 2. 可能出现的Err
 
