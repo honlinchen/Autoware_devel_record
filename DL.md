@@ -1,4 +1,4 @@
-# Point_CNN
+# DL_CNN
 
 ## 深度学习基础
         语义鸿沟 Semantic Gap：
