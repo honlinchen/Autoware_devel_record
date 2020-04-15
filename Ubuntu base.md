@@ -48,6 +48,8 @@ source /opt/ros/melodic/setup.bash
 ### 2.1 install
 
 ### 2.2 update and setting 
+        ref:https://help.ubuntu.com/community/Repositories/Ubuntu
+        change the source :aliyun
 
 ## 3. install chinese(simple)
 ---
