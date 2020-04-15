@@ -1,7 +1,7 @@
 # Autoware Install
 
 - Autoware安装有官方教程：
-             [Ref: autowarefoundation](https://gitlab.com/autowarefoundation/autoware.ai/autoware/-/wikis/Source-Build)官网
+             [Ref: autowarefoundation](https://gitlab.com/autowarefoundation/autoware.ai/autoware/-/wikis/Source-Build)
 - 但是作为新手，需要经过以下步骤:<br>
              Steps: install Ubuntu -- Ubuntu setting -- install ROS -- install QT --(install CUDA) -- install Autoware
         
@@ -17,7 +17,7 @@ echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
 ```
 ## 4. install QT
 
-- [Ref:](https://blog.csdn.net/luoffy555/article/details/103251712)
+- [Ref blog:](https://blog.csdn.net/luoffy555/article/details/103251712)
 - Note: 
                   echo PATH= ...Qt...gcc...
                   echo PATH=...QtCreater
