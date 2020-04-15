@@ -16,10 +16,12 @@ echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
 关于环境变量设置的问题在Ubuntu_base 有详细讲解
 ```
 ## 4. install QT
-    Ref:https://blog.csdn.net/luoffy555/article/details/103251712
+
+    - [Ref:](https://blog.csdn.net/luoffy555/article/details/103251712)
      
-     Note: echo PATH= ...Qt...gcc...
-                 echo PATH=...QtCreater
+     - Note: 
+                  echo PATH= ...Qt...gcc...
+                  echo PATH=...QtCreater
       根据各类博文，环境设置需要设置Qt与QtCreater
 ## 5. install Auoware
 
