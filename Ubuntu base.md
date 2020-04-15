@@ -43,7 +43,13 @@ source /opt/ros/melodic/setup.bash
 ```
 ### 1.4
 
-## 2 install chinese(simple)
+## 2. install Ubuntu
+---
+### 2.1 install
+
+### 2.2 update and setting 
+
+## 3. install chinese(simple)
 ---
 
 
