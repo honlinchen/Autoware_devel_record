@@ -1,4 +1,4 @@
-# Ubuntu base cmd
+# Ubuntu basic cmd
 
 ## 1 Ubuntu systeam basic tips
 
