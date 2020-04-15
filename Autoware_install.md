@@ -2,6 +2,7 @@
 ---
         Autoware安装有官方教程：
              [Ref: autowarefoundation](gitlab.com/autowarefoundation/autoware.ai/autoware/-/wikis/Source-Build)官网
+             [aa](https://www.jianshu.com/p/ab539e9a7955)
         但是作为新手，需要经过以下步骤：
              Steps: install Ubuntu -- Ubuntu setting -- install ROS -- install QT --(install CUDA) -- install Autoware
         
@@ -10,6 +11,8 @@
 ## 2. Ubuntu setting
 ## 3. install ROS
 ```
+[aa](https://www.jianshu.com/p/ab539e9a7955)
+
 将ROS环境变量自动添加到bash会话中，将很方便：
 echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
 ~/.bashrc
