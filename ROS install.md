@@ -2,8 +2,8 @@
 
 ## 1. install :
 
-    [Ref官方文档](http://wiki.ros.org/melodic/Installation/Ubuntu)
-    [Ref blog](https://blog.csdn.net/leonardohaig/article/details/82813738)
+[Ref官方文档](http://wiki.ros.org/melodic/Installation/Ubuntu)
+[Ref blog](https://blog.csdn.net/leonardohaig/article/details/82813738)
 
 ## 2. 可能出现的Err
 
@@ -35,7 +35,7 @@ sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C
 E: 无法下载 http://117.128.6.30/cache/packages.ros.org/ros/ubuntu/pool/main/r/ros-melodic-actionlib-tutorials/ros-melodic-actionlib-tutorials_0.1.11-0bionic.20200320.123237_amd64.deb?ich_args2=506-15114205043928_579e480f33154fd1e38ac2ab38eb1e9e_10001002_9c896c2adec1f3d09032518939a83798_a699ee352b68c54d96d9b2efd5abb6a6  无法连接上 117.128.6.30:80 (117.128.6.30)，连接超时
  
  分析：可能是Ubuntu 源设置的问题，或者网络的问题
- Ubuntu源设置为：
+ Ubuntu源设置为下图：
 ```
 ![](https://github.com/honlinchen/Autoware_devel_record/blob/master/md_images/Screenshot%20from%202020-04-15%2021-00-10.png)
         
