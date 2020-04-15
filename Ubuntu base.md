@@ -34,12 +34,37 @@ ref:https://www.cnblogs.com/fenglongyu/p/8654991.html
 ```
 ### 1.3 source cmd
 ```
-每次启动新的shell时，如果将ROS环境变量自动添加到bash会话中，将很方便：
+每次启动新的shell时，如果将ROS/QT/Autoware环境变量自动添加到bash会话中，将很方便：
 echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
 ~/.bashrc
 
 for just one time :
-source /opt/ros/melodic/setup.bash
+ROS: source /opt/ros/melodic/setup.bash
+QT: source /etc/profile
+Autoware:cd autoware.ai    source install/setup.bash
+
+ROS:
+echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+~/.bashrc
+
+QT:
+echo "source /etc/profile" >> ~/.bashrc
+~/.bashrc
+
+Autoware:
+echo "source /home/chl/autoware.ai/install/setup.bash" >> ~/.bashrc
+~/.bashrc
+
+OR 
+vim ~/.bashrc
+add the methoned sentences: source...
+
+```
+Q:add too much source sentences into ./bashrc many rusults...?
+```
+~/.bashrc yu /etc/profile || /opt/ros/melodic/setup.bash ||
+~/.bashrc diannao qi dong jiu hui source yixia ,qita d zhineng yong yuju source,huozhe tianjia dao ~/.bashrc zhong
+huanjingbianliang yiban shezhi zai butong de wenjian zhong
 ```
 ### 1.4
 
