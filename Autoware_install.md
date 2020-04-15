@@ -1,10 +1,8 @@
 # Autoware Install
 ---
-        Autoware安装有官方教程：
+-Autoware安装有官方教程：
              [Ref: autowarefoundation](gitlab.com/autowarefoundation/autoware.ai/autoware/-/wikis/Source-Build)官网
-             [aa](https://www.jianshu.com/p/ab539e9a7955)
-             [我的博客](http://blog.csdn.net/guodongxiaren)  
-        但是作为新手，需要经过以下步骤：
+但是作为新手，需要经过以下步骤：
              Steps: install Ubuntu -- Ubuntu setting -- install ROS -- install QT --(install CUDA) -- install Autoware
         
 ## 1. install Ubuntu
