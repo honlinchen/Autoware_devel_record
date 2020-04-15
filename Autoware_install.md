@@ -18,7 +18,7 @@ echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
 ## 4. install QT
 
 - [Ref blog:](https://blog.csdn.net/luoffy555/article/details/103251712)
-- Note: <br>
+- Note:环境变量
 ```
 export PATH="/home/chl/Qt5.12.2/5.12.2/gcc_64/bin:$PATH"
 export PATH="/home/chl/Qt5.12.2/Tools/QtCreator/bin:$PATH"
