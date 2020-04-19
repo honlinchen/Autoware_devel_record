@@ -79,11 +79,13 @@ DNN：可以认为是线性网络，对于层的节点数的设置需要满足�
 
 # 概率论
 
-- [Ref 1](https://www.cnblogs.com/ycwang16/p/5995702.html) 
+## 贝叶斯
+
+- [Ref 1](https://www.cnblogs.com/ycwang16/p/5995702.html) 贝叶斯滤波
 - [Ref 2](https://blog.csdn.net/renhaofan/article/details/82144274)贝叶斯相关公式
 - [Ref 3](https://blog.csdn.net/renhaofan/article/details/82415167)贝叶斯滤波
 
-## 1.基本概念
+### 1.基本概念
 
 * 联合概率:<br>
  p(X=x  and  Y=y)=p(x,y)，称为联合概率密度分布。如果X和Y是相互独立的随机变量，p(x,y)=p(x)p(y)。一般的，课本上的写法是：P(AB)或者P(A,B)或者P(A*B)，表达A， 
@@ -94,11 +96,23 @@ X,Y相互独立，则X=x下的发生与Y无关，Y=y的发生与X无关，有：
                        
 * 随机过程：<br>
 当两个随机变量进行对比的时候，出现了相互独立，以及相关性；当一个随机变量的不同阶段进行对比的时候，就会出现一个新概念：随机过程。随机过程 
-[Ref](https://baike.baidu.com/item/%E9%9A%8F%E6%9C%BA%E8%BF%87%E7%A8%8B/368895)
+[Ref](https://baike.baidu.com/item/%E9%9A%8F%E6%9C%BA%E8%BF%87%E7%A8%8B/368895)百度。
   
 * 马尔科夫过程:<br>
 当一个随机过程在给定现在状态及所有过去状态情况下，其未来状态的条件概率分布仅依赖于当前状态；换句话说，在给定现在状态时，它与过去状态（即该过程的历史
 路径）是条件独立的，那么此随机过程即具有马尔可夫性质。具有马尔可夫性质的过程通常称之为马尔可夫过程。【百度】
-                       
+
+- 贝叶斯公式：参看Ref2
+```
+P(A|B)=P(B|A)P(A)/P(B)
+ A一般是某种状态，B一般是某种观测值
+1.P(A)先验概率（Prior probability）
+2.P(A|B)后验概率（Posterior/causal probability)
+3.P(B|A)/P(B)可能性函数（Likelyhood）
+```
+分析：B发生并且经过观测后，A的概率可以因为B发生以及观测而得到修正，修正的方式是乘以一个可能性函数Likelyhood，即：P(A)=L(B) * P(A)，L(B)的推导用到了相互独立随机变量假设，联合概率公式。
+         
+
+### 2. 
 
 ## 链式法则？
