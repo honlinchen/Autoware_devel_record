@@ -132,7 +132,10 @@ P(A|B)=P(B|A)P(A)/P(B)
 ### 2. 
 
 ## 链式法则？
-- [Ref blog](https://www.cnblogs.com/huahuahu/p/dao-shu-duo-yuan-han-shu-ti-du-lian-shi-fa-ze-ji-B.html)
+- [Ref bilibili]()
+- [Ref blog](https://www.cnblogs.com/huahuahu/p/dao-shu-duo-yuan-han-shu-ti-du-lian-shi-fa-ze-ji-B.html)导数、多元函数、梯度、链式法则及 BP 神经网络
+- [Ref blog](https://blog.csdn.net/qq_41871826/article/details/92408443) 多变量微积分笔记（2）——多元函数及其微分
+- [Ref blog](https://zhuanlan.zhihu.com/p/32274749)多元变量函数，泰勒如何展开？（泰勒展开）
 - 一元函数f(x)对x求导=f'(x)<br>
 - 一元函数的链式求导法也是非常容易理解的，在复合函数场景下：f(g(x))对x求导=f'(g(x))* g'(x)<br>
 - 而对于二元函数z=f(x,y)的求导问题，首先要加入偏导的概念。其次，也是最关键的一点是要假设t的存在，使得同时满足x=x(t),y=y(t)，即z=f(x,y)与z=f(x(t),y(t))等价。<br>
