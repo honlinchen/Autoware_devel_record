@@ -82,6 +82,7 @@ DNN：可以认为是线性网络，对于层的节点数的设置需要满足�
 ## 贝叶斯
 
 - [Ref 1](https://www.cnblogs.com/ycwang16/p/5995702.html) 贝叶斯滤波
+- [Ref 4]()
 - [Ref 2](https://blog.csdn.net/renhaofan/article/details/82144274)贝叶斯相关公式
 - [Ref 3](https://blog.csdn.net/renhaofan/article/details/82415167)贝叶斯滤波
 
@@ -132,7 +133,7 @@ P(A|B)=P(B|A)P(A)/P(B)
 ### 2. 
 
 ## 链式法则？
-- [Ref bilibili]()
+- [Ref bilibili](https://blog.csdn.net/renhaofan/article/details/82144274)贝叶斯相关公式（Bayes）
 - [Ref blog](https://www.cnblogs.com/huahuahu/p/dao-shu-duo-yuan-han-shu-ti-du-lian-shi-fa-ze-ji-B.html)导数、多元函数、梯度、链式法则及 BP 神经网络
 - [Ref blog](https://blog.csdn.net/qq_41871826/article/details/92408443) 多变量微积分笔记（2）——多元函数及其微分
 - [Ref blog](https://zhuanlan.zhihu.com/p/32274749)多元变量函数，泰勒如何展开？（泰勒展开）
