@@ -51,7 +51,12 @@ E: 无法下载 http://117.128.6.30/cache/packages.ros.org/ros/ubuntu/pool/main/
 3. 构建包所需的依赖 rosinstall:创建和管理你自己的 ROS workspace，还有单独发布的许多的工具。
 比如，rosinstall 是一个常用的命令行工具，使你可以通过一个命令为 ROS 包简单地下载许多源码树。
 
+
+
 ```
+![rosdep update一直timeout的问题](https://blog.csdn.net/qq_38649880/article/details/87903654)
+![rosdep update更新不了问题解决](rosdep update更新不了问题解决)
+
 ## wheather succeed
 
 [Ref blog](https://blog.csdn.net/weixin_43288132/article/details/104613544)
