@@ -32,8 +32,7 @@ export PATH="/home/chl/Qt5.12.2/Tools/QtCreator/bin:$PATH"
 [Ref: autowarefoundation](https://gitlab.com/autowarefoundation/autoware.ai/autoware/-/wikis/Source-Build)
 
 ```
-
-
-
+安装autoware时，语句：rosdep update只能执行一次，如果安装不成功，则下次安装的时候跳过这一句。
+rosdep update 与ROS安装中的rosdep init是同一个内容。
 ```
 
