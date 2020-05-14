@@ -54,9 +54,10 @@ E: 无法下载 http://117.128.6.30/cache/packages.ros.org/ros/ubuntu/pool/main/
 
 
 ```
-- [rosdep update一直timeout的问题](https://blog.csdn.net/qq_38649880/article/details/87903654)
-- [rosdep update更新不了问题解决](https://blog.csdn.net/nidie508/article/details/104156378)
 
+- [rosdep update更新不了问题解决——第1步](https://blog.csdn.net/nidie508/article/details/104156378)
+- [rosdep update一直timeout的问题——第2步](https://blog.csdn.net/qq_38649880/article/details/87903654)可以
+- 上面都设好之后需要多次耐心运行rosdep update ，还是不行的话换个网络再试，还是不行的话，早上早点起来(7-8点)接着试。这个问题没有什么好办法，上面的两步操作可以大大提高成功率。
 ## wheather succeed
 
 [Ref blog](https://blog.csdn.net/weixin_43288132/article/details/104613544)
