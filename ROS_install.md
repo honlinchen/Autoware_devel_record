@@ -36,7 +36,7 @@ E: 无法下载 http://117.128.6.30/cache/packages.ros.org/ros/ubuntu/pool/main/
  
  分析：可能是Ubuntu 源设置的问题，或者网络的问题
  Ubuntu源设置为下图：
-```
+ ```
 ![](https://github.com/honlinchen/Autoware_devel_record/blob/master/md_images/Screenshot%20from%202020-04-15%2021-00-10.png)
         
         apt-key语句执行成功后，下图中的设置会自动完成
