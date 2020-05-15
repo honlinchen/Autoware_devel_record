@@ -2,6 +2,7 @@
 
 ## 1. install :
 - [ROS Melodic 版本安装+将ROS的源设置为国内的源](https://blog.csdn.net/qq_38649880/article/details/99563189)
+- 如上文中所写，改用清华源，install过程中的下载速度会极大提升，
 - [Ref官方文档](http://wiki.ros.org/melodic/Installation/Ubuntu)
 - [Ref blog](https://blog.csdn.net/leonardohaig/article/details/82813738)
 
@@ -46,7 +47,7 @@ E: 无法下载 http://117.128.6.30/cache/packages.ros.org/ros/ubuntu/pool/main/
 ```
 1. rosdep : tools and other dependencies for building ROS packages
 2. sudo rosdep init:  Wrote /etc/ros/rosdep/sources.list.d/20-default.list
-   sudo rosdep init  （安装一次后只能运行一次，若重新安装选择跳过或卸载）
+   sudo rosdep init  （安装一次后只能运行一次，若重新安装选择跳过或删除该文件，并再次执行此语句）
    rosdep update
 3. 构建包所需的依赖 rosinstall:创建和管理你自己的 ROS workspace，还有单独发布的许多的工具。
 比如，rosinstall 是一个常用的命令行工具，使你可以通过一个命令为 ROS 包简单地下载许多源码树。
