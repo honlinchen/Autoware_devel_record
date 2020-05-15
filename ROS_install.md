@@ -1,5 +1,5 @@
 # ROS install
-
+# 一，官方源
 ## 1. install :
 - [ROS Melodic 版本安装+将ROS的源设置为国内的源](https://blog.csdn.net/qq_38649880/article/details/99563189)
 - 如上文中所写，改用清华源，install过程中的下载速度会极大提升，
@@ -62,4 +62,44 @@ E: 无法下载 http://117.128.6.30/cache/packages.ros.org/ros/ubuntu/pool/main/
 ## wheather succeed
 
 [Ref blog](https://blog.csdn.net/weixin_43288132/article/details/104613544)
+
+# 二，清华源
+## 安装步骤
+- [blog-1: ROS Melodic 版本安装+将ROS的源设置为国内的源](https://blog.csdn.net/qq_38649880/article/details/99563189)
+- 如上文中所写，改用清华源，install过程中的下载速度会极大提升，整个安装过程除了第1，2步换用清华源，setup key 参考[blog-1]外，其他所有步骤均按照下方官方文档！
+- [Ref官方文档](http://wiki.ros.org/melodic/Installation/Ubuntu)
+
+## 出现的问题
+- 1.sudo rosdep init报错
+```
+ERROR: cannot download default sources list from:
+https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/sources.list.d/20-default.list
+Website may be down.
+```
+查看是否存在/etc/ros/rosdep/sources.list.d/20-default.list文件，不存在则手动添加，参考：</br>
+[手动添加20-default.list文件](https://www.jianshu.com/p/bdbfbac69114)
+再次执行sudo rosdep init，仍报错，无视报错。
+
+- 2.rosdep update报错
+```
+reading in sources list data from /etc/ros/rosdep/sources.list.d
+ERROR: unable to process source [https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/osx-homebrew.yaml]:
+    <urlopen error [Errno 111] Connection refused> (https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/osx-homebrew.yaml)
+ERROR: unable to process source [https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/base.yaml]:
+    <urlopen error [Errno 111] Connection refused> (https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/base.yaml)
+ERROR: unable to process source [https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/python.yaml]:
+    <urlopen error [Errno 111] Connection refused> (https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/python.yaml)
+ERROR: unable to process source [https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/ruby.yaml]:
+    <urlopen error [Errno 111] Connection refused> (https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/ruby.yaml)
+Hit https://raw.githubusercontent.com/ros/rosdistro/master/releases/fuerte.yaml
+Query rosdistro index https://raw.githubusercontent.com/ros/rosdistro/master/index-v4.yaml
+Add distro "ardent"
+ERROR: error loading sources list:
+    <urlopen error <urlopen error [Errno 111] Connection refused> (https://raw.githubusercontent.com/ros/rosdistro/master/ardent/distribution.yaml)>
+```
+注意错误类型是“Connection refused”，并不是“time out”(一里面有处理方法)，也不是“error _ssl.c: 或者"urlopen error [SSL: ..."(这种错误参考：https://www.jianshu.com/p/bdbfbac69114 和  https://zhuanlan.zhihu.com/p/77483614)
+
+[Connection refused 处理参考blog](https://blog.csdn.net/mrh1714348719/article/details/103803110)
+
+- 3. 上述两种问题均是由于换 ROS源引发的，但实际使用上，换用源之后的顺畅度大大提升，换源更理想一些。
 
