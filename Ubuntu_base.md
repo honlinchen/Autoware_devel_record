@@ -80,3 +80,6 @@ basic tips.
 - 1. sudo apt install fcitx-bin
 - 2.按照https://blog.csdn.net/github_39533414/article/details/85211012 进行
 - 3.安装好后，如果出现乱码问题，博客中的最后一步不要操作即可
+
+## 3.Ubuntu20.04 install chinese(simple)
+- [Ubuntu20.04 install chinese](https://blog.csdn.net/a805607966/article/details/105874756)
